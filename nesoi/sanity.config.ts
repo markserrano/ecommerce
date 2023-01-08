@@ -1,13 +1,13 @@
 import {defineConfig} from 'sanity'
 import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
-import {schemaTypes} from './schema'
+import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'ecommerce',
+  title: 'nesoi',
 
-  projectId: 'dhe7627m',
+  projectId: 'ktnj9eua',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
